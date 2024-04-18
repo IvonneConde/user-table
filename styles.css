@@ -64,9 +64,6 @@ input[type="text"] {
     td {
         font-size: 12px;
     }
-    th, td {
-        box-sizing: border-box;
-    }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 768px) {
@@ -82,6 +79,5 @@ input[type="text"] {
     th, td {
         padding: 5px;
         font-size: 12px;
-        box-sizing: border-box;
     }
 }
