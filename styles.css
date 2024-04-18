@@ -41,6 +41,10 @@ input[type="text"] {
 }
 
 @media only screen and (max-width: 500px) {
+    table {
+        box-sizing: border-box;
+    }
+
     .container {
         padding: 10px;
     }
@@ -64,6 +68,10 @@ input[type="text"] {
 }
 
 @media only screen and (min-width: 501px) and (max-width: 768px) {
+    table {
+        box-sizing: border-box;
+    }
+    
     .container {
         padding: 15px;
     }
