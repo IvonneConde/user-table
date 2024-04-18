@@ -10,7 +10,7 @@ body {
 
 .container {
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 table {
@@ -58,7 +58,6 @@ input[type="text"] {
     th {
         max-width: 150px;
         overflow: hidden;
-        text-overflow: ellipsis;
         font-size: 12px;
     }
 
@@ -69,7 +68,7 @@ input[type="text"] {
 
 @media only screen and (min-width: 501px) and (max-width: 768px) {
     .container {
-        padding: 15px;
+        padding: 10px;
     }
 
     input[type="text"] {
